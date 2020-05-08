@@ -17,18 +17,18 @@ nav::before{
     z-index: -1;
 }
 
-ul{
+.pos_list{
     margin: 0;
     padding: 0;
     list-style: none;
     height: 50px;
 }
 
-ul li{
+.pos_elem{
     float: left;
 }
 
-a{
+.color_for_header  {
     color: blanchedalmond;
     display: block;
     height: 50px;
@@ -39,16 +39,9 @@ a{
 
 }
 
-ul li a:hover{
+.pos_list .pos_elem .color_for_header :hover{
     background: crimson;
 }
 
 
-#header{
 
-    width: auto;
-    height: 200px;
-    background-image: url(images/elan_poster.png);
-    background-size: 100%;
-    background-attachment: fixed;
-}
