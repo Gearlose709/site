@@ -106,11 +106,34 @@ nav{
 
 
 .taxi-list{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
   border: 2px solid #ffc900;
-  width: 900px;
+  background-color: papayawhip;
+  margin: 10px 35% 0 35%;
+
 }
 
+/*
+.taxi-list > ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+*/
+
 .taxi-firm > h3 {
+  margin: 3px;
+  margin-bottom: 5px;
+  background: #fbde76;
+ }
+
+ .taxi-firm-header{
   margin: 3px;
   margin-bottom: 5px;
   background: #fbde76;
@@ -143,3 +166,18 @@ nav{
 .map {
 
 }
+
+.link-vk{
+  font-size: 50px;
+	color: #000;
+	padding-left: 100px;
+  line-height: 59px;
+  display: inline;
+	background-color: #FE8020;
+	box-shadow: -10px 0 0 #FE8020, 10px 0 0 #FE8020;
+	padding: 10px 0;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+
