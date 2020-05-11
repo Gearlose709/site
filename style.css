@@ -137,6 +137,7 @@ nav{
   margin: 3px;
   margin-bottom: 5px;
   background: #fbde76;
+  text-align: center;
  }
 
  .taxi-title {
@@ -168,16 +169,7 @@ nav{
 }
 
 .link-vk{
-  font-size: 50px;
-	color: #000;
-	padding-left: 100px;
-  line-height: 59px;
-  display: inline;
-	background-color: #FE8020;
-	box-shadow: -10px 0 0 #FE8020, 10px 0 0 #FE8020;
-	padding: 10px 0;
-	color: #FFFFFF;
-	font-size: 20px;
+
 }
 
 
